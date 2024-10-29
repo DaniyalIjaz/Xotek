@@ -64,14 +64,23 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .heroMain{
-        flex-direction: column;
-    }
-    .heroLeft{
-        width: 60vw;
+        display: grid;
+        gap: 20px;
+        margin-top: 6.5rem;
     }
     .heroRight{
         width: 90vw;
+        font-size: 13px;
+    }
+    .heroLeft{
+        width: 85vw;
+        line-height: 73%;
+        /* height: 60vh; */
+        font-size: 15vw;
+    }
+    .contactHero svg{
+        margin-top: -5px;
     }
 }

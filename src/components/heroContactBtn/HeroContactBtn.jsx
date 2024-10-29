@@ -4,7 +4,7 @@ import './HeroContactBtn.css'
 const HeroContactBtn = () => {
   return (
     <div>
-        <button className="button"><span>Let’s Create&nbsp;</span></button>
+        <button className="heroContactBtn"><span>Let’s Create&nbsp;</span></button>
     </div>
   )
 }
