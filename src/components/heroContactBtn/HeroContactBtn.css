@@ -1,0 +1,56 @@
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    background: #01579B;
+    background: linear-gradient(
+      to right,
+      #01579B,#161616
+    );
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 2vw;
+    box-shadow: 0px 14px 56px -11px #01579B;
+    width: 11em;
+    padding: 0.7em;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .button svg path {
+    fill: white
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  
+  .button span:after {
+    content: ' Together!';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+  }
+  
+  .button:hover span {
+    padding-right: 3.80em;
+  }
+  
+  .button:hover span:after {
+    opacity: 4;
+    right: 0;
+  }

@@ -1,0 +1,44 @@
+.carousel-container {
+    padding: 0 25px;
+    max-width: 100vw;
+    height: auto;
+  }
+  
+  .carousel-image {
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    object-fit: contain; /* Ensures the image covers the entire container without distorting */
+  }
+  
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 35px; /* Increase the arrow icon size */
+    color: white;    /* Make the arrows white for visibility */
+  }
+  
+  /* .slick-dots {
+    bottom: 20px; 
+  } */
+  
+  .slick-dots li button:before {
+    font-size: 12px; /* Adjust dot size */
+    color: white;
+  }
+
+
+
+  
+/* Media Queries for responsiveness  */
+@media screen and (max-width: 980px) {
+    .carousel-container{
+        display: none;
+    }
+}
+  

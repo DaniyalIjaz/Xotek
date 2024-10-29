@@ -1,0 +1,26 @@
+.starterHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.starterHeading h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 3.5rem;
+}
+.starterHeading p{
+    font-size: 1rem;
+    color: rgba(17, 17, 17, 0.5);
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0.72rem 0;
+}
+.rainbowHr{
+    height: 1px;
+    width: 3.5vw;
+    margin-top: 0.35rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(90deg, #EFEB6E, #EC8644, #C7F8FD, #47BEE6, #47BEE6, #AE69A8, #7E4A9A);
+}

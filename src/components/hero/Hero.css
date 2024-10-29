@@ -1,0 +1,77 @@
+.heroMain{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 13%;
+    padding: 10px;
+    text-wrap: wrap;
+}
+.heroLeft{
+    width: 45vw;
+    
+    font-size: 8vw;
+    font-weight: 1000;
+    line-height: 6vw;
+    letter-spacing: -0.2vw;
+}
+.heroLeft p:nth-child(1){
+    
+    padding-bottom: 12px;
+
+    -webkit-text-fill-color: transparent;
+    background-image: url('/public/Images/heroTextBackground/herobg.jpg');
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.heroLeft p:nth-child(2) {
+    -webkit-text-fill-color: transparent;
+    background-image: url('/public/Images/heroTextBackground/herobg2.jpg');
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+.heroRight{
+    width: 45vw;
+    color: #01579B;
+    font-size: 1.6vw;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+.contactHero{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+.contactHero svg{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .contactHero svg{
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .heroMain{
+        flex-direction: column;
+    }
+    .heroLeft{
+        width: 60vw;
+    }
+    .heroRight{
+        width: 90vw;
+    }
+}
