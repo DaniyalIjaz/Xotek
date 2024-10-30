@@ -15,7 +15,8 @@
     line-height: 6vw;
     letter-spacing: -0.2vw;
 }
-.heroLeft p:nth-child(1){
+.heroLeft p:nth-child(1),
+.heroLeft p:nth-child(2){
     
     padding-bottom: 12px;
 
@@ -28,7 +29,8 @@
     -webkit-background-clip: text;
     background-clip: text;
 }
-.heroLeft p:nth-child(2) {
+.heroLeft p:nth-child(3),
+.heroLeft p:nth-child(4) {
     -webkit-text-fill-color: transparent;
     background-image: url('/public/Images/heroTextBackground/herobg2.jpg');
     background-position: 50%;

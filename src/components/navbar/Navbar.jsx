@@ -5,8 +5,11 @@ import { NavLink } from 'react-router-dom';
 import {motion} from  'framer-motion'
 import { fadeIn } from '../../variants'
 
-const Navbar = () => {
 
+const Navbar = () => {
+  
+  const MotionNavLink = motion.create(NavLink);
+  
   const [isOpen, setIsOpen]= useState(false);
 
   const toggleMenu = () =>{
@@ -32,22 +35,30 @@ const Navbar = () => {
 {/* NavLinks  */}
       <ul className={isOpen ? 'navItemsActive' : 'navItems'}>
         <li>
-        <NavLink 
+        <MotionNavLink
+        variants={fadeIn('right',0.3)}
+                initial="hidden"
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.7 }} 
   className={({ isActive }) => {
     return isActive ? "text-red" : "";
   }} 
   to="/"
 >
   Home
-</NavLink>
+</MotionNavLink>
         </li>
         <li>
-          <NavLink 
+          <MotionNavLink
+          variants={fadeIn('right',0.4)}
+                initial="hidden"
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.7 }} 
             className={({ isActive }) => (isActive ? "text-red" : "")} 
             to="/about-multynet"
           >
             Servives
-          </NavLink>
+          </MotionNavLink>
           <div className="dropdown">
             <NavLink className="dropdownLink" to="/company-profile">
               Company Profile
@@ -61,12 +72,16 @@ const Navbar = () => {
           </div>
         </li>
         <li>
-          <NavLink 
+          <MotionNavLink
+          variants={fadeIn('right',0.5)}
+                initial="hidden"
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.7 }} 
             className={({ isActive }) => (isActive ? "text-red" : "")} 
             to="/product"
           >
             Work
-          </NavLink>
+          </MotionNavLink>
           <div className="dropdown">
             <NavLink className="dropdownLink" to="/home-entertainment">
               Home Entertainment
@@ -74,20 +89,28 @@ const Navbar = () => {
           </div>
         </li>
         <li>
-          <NavLink 
+          <MotionNavLink
+          variants={fadeIn('right',0.6)}
+                initial="hidden"
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.7 }} 
             className={({ isActive }) => (isActive ? "text-red" : "")} 
             to="/news"
           >
             Why xotek
-          </NavLink>
+          </MotionNavLink>
         </li>
         <li>
-          <NavLink 
+          <MotionNavLink
+          variants={fadeIn('right',0.7)}
+                initial="hidden"
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.7 }} 
             className={({ isActive }) => (isActive ? "text-red" : "")} 
             to="/contact"
           >
             Contact
-          </NavLink>
+          </MotionNavLink>
         </li>
       </ul>
 

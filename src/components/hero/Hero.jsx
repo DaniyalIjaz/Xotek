@@ -3,6 +3,9 @@ import './Hero.css'
 import HeroContactBtn from '../heroContactBtn/HeroContactBtn'
 import {motion} from  'framer-motion'
 import { fadeIn } from '../../variants'
+import { rotateSlideIn } from '../../variants'
+import { scaleFadeIn } from '../../variants'
+import { bounceIn } from '../../variants'
 
 const Hero = () => {
   return (
@@ -10,22 +13,34 @@ const Hero = () => {
 
         <div className="heroLeft">
             <motion.p
-                variants={fadeIn('right',0.1)}
+                variants={rotateSlideIn('up', 0.2)}
                 initial="hidden"
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0.7 }}
-            >Where Expertise</motion.p>
+            >Where</motion.p>
             <motion.p
-                  variants={fadeIn('right',0.3)}
+                variants={rotateSlideIn('up', 0.3)}
+                initial="hidden"
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.7 }}
+            >Expertise</motion.p>
+            <motion.p
+                  variants={rotateSlideIn('up', 0.4)}
                   initial="hidden"
                   whileInView={'show'}
                   viewport={{ once: false, amount: 0.7 }}
-            >Meets Innovation</motion.p>
+            >Meets</motion.p>
+            <motion.p
+                  variants={rotateSlideIn('up', 0.5)}
+                  initial="hidden"
+                  whileInView={'show'}
+                  viewport={{ once: false, amount: 0.7 }}
+            >Innovation</motion.p>
         </div>
 
         <div className="heroRight">
             <motion.p
-                variants={fadeIn('up',0.1)}
+                variants={scaleFadeIn(0.1)}
                 initial="hidden"
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0.7 }}
@@ -33,7 +48,7 @@ const Hero = () => {
 
             <div className="contactHero">
                 <motion.div
-                    variants={fadeIn('right',0.3)}
+                    variants={bounceIn(0.1)}
                     initial="hidden"
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.3 }}
