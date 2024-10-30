@@ -1,0 +1,33 @@
+
+.headingBigMain{
+    margin: 3vw;
+    text-wrap: wrap;
+    font-size: 6.5vw;
+    font-weight: 1000;
+    line-height: 7vw;
+    letter-spacing: -0.2vw;
+}
+.upperHeadingBig p:nth-child(1){
+    
+    padding-right: 2vw;
+    font-size: 8vw;
+
+    -webkit-text-fill-color: transparent;
+    background-image: url('/public/Images/heroTextBackground/herobg.jpg');
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.upperHeadingBig{
+    display: flex;
+    gap: 0.4vw;
+}
+.lowerHeadingBig{
+    display: flex;
+    gap: 0.8vw;
+
+}
