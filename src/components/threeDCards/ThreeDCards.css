@@ -1,0 +1,67 @@
+/* Container styling for the entire card wrapper */
+.threeDCardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Individual card styling */
+  .threeDCard {
+    width: 20vw; /* Responsive width for larger screens */
+    max-width: 300px; /* Limit the max width of each card */
+    min-width: 150px; /* Ensure a minimum width for very small screens */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .threeDCard:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Responsive image styling inside each card */
+  .threeDCard img {
+    width: 100%; /* Make image fill the card width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure image covers the card without distortion */
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  /* Card text content styling */
+  .threeDCard .textContent {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  /* Responsive adjustments for different screen sizes */
+  @media (max-width: 768px) {
+    .threeDCard {
+      width: 80vw; /* Full width for smaller screens */
+      margin-bottom: 1rem;
+    }
+  
+    .threeDCard .textContent {
+      font-size: 0.9rem; /* Reduce font size on small screens */
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .threeDCard {
+      width: 40vw; /* Larger width for medium screens */
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .threeDCard {
+      width: 20vw; /* Default width for larger screens */
+    }
+  }
+  

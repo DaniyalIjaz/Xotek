@@ -1,8 +1,8 @@
 
 .headingBigMain{
-    margin: 3vw;
+    margin: 6vw;
     text-wrap: wrap;
-    font-size: 6.5vw;
+    font-size: 9vw;
     font-weight: 1000;
     line-height: 7vw;
     letter-spacing: -0.2vw;
@@ -10,7 +10,7 @@
 .upperHeadingBig p:nth-child(1){
     
     padding-right: 2vw;
-    font-size: 8vw;
+    font-size: 10vw;
 
     -webkit-text-fill-color: transparent;
     background-image: url('/public/Images/heroTextBackground/herobg.jpg');

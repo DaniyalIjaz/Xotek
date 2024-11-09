@@ -1,0 +1,42 @@
+   .logo-carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* padding: 14vw 3vw; */
+  }
+  
+  .logo-item {
+    width: 21vw;
+    height: auto;
+    transition: width 0.3s ease;
+  }
+  
+  @media (max-width: 1200px) {
+    /* .logo-item {
+      width: 150px;
+    } */
+  }
+  
+  @media (max-width: 768px) {
+    .logo-carousel-container {
+      gap: 10px;
+    }
+  
+    /* .logo-item {
+      width: 120px;
+    } */
+  }
+  
+  @media (max-width: 480px) {
+    .logo-carousel-container {
+      flex-direction: column;
+      gap: 6vw;
+    }
+  
+    .logo-item {
+      width: 40vw;
+    }
+  }
+  

@@ -8,10 +8,11 @@ import CustomCursor from './components/customCursor/CustomCursor'
 const Layout = () => {
   return (
     <>
-    <Navbar/>
-    <CustomCursor/>
-    <Outlet/>
-    <Footer/>
+    <CustomCursor>
+      <Navbar/>
+      <Outlet/>
+      <Footer/>
+    </CustomCursor>
       
     </>
   )

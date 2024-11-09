@@ -1,0 +1,132 @@
+/* Container styling */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 1000px; /* Creates the 3D perspective */
+    cursor: pointer;
+  }
+  
+  .card-body {
+    background-color: #f8fafc;
+    border-radius: 1rem;
+    padding: 1.4rem;
+    width: 18vw;
+    height: 60vh;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-style: preserve-3d; /* Preserves 3D transforms */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .cardHeadings{
+    line-height: 1.4vw;
+  }
+  .card-body:hover {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Card items styling */
+  .card-item {
+    transition: transform 0.3s ease;
+  }
+  
+  .card-item.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #01497e;
+    transform: translateZ(50px);
+  }
+  
+  .card-item.description {
+    font-size: 1.2rem;
+    color: #000000;
+    /* margin-top: 0.5rem; */
+    transform: translateZ(40px);
+  }
+  
+  .card-item.image {
+    transform: translateZ(30px) rotateX(10deg);
+    margin-top: 0.6rem;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 46vh;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-body:hover .card-image {
+    transform: scale(1.05);
+  }
+  
+  /* Card actions */
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 2rem; */
+    
+  }
+  
+  .card-button {
+    padding: 0.6rem 1rem;
+    margin: 1.5vw 0;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button.try {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+  
+  .card-button.sign-up {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .card-button.try:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .card-button.sign-up:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .card-body {
+      width: 80%;
+    }
+    .card-button{
+      margin: 5vw 0;
+    }
+    .cardHeadings{
+      line-height: 4.2vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-body {
+      width: 90%;
+      padding: 1rem;
+    }
+  
+    .card-item.title {
+      font-size: 1.2rem;
+    }
+  
+    .card-button {
+      font-size: 0.7rem;
+    }
+  }
+  

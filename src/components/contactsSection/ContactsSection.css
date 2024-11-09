@@ -1,7 +1,7 @@
 .contactSecMain{
-    padding: 10vw 0;
+    padding: 15vw 0;
     display: grid;
-    gap: 0px;
+    gap: 0.4vw;
 
 }
 .contactPara{
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     gap: 0.5vw;
-    font-size: 3.3vw;
+    font-size: 3.7vw;
     font-weight: 600;
 
     color: #054a80;
@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.8vw;
+    padding-top: 0.5vw;
 
 }
 

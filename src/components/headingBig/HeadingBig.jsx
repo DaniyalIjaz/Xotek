@@ -6,7 +6,7 @@ import { rotateSlideIn } from '../../variants'
 import { scaleFadeIn } from '../../variants'
 import { bounceIn } from '../../variants'
 
-const HeadingBig = () => {
+const HeadingBig = (props) => {
   return (
     <div>
       <div className="headingBigMain">
@@ -16,19 +16,19 @@ const HeadingBig = () => {
                 initial="hidden"
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0.7 }}
-            >What</motion.p>
+            >{props.p1}</motion.p>
             <motion.p
                 variants={bounceIn(0.2)}
                 initial="hidden"
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0.7 }}
-            >do</motion.p>
+            >{props.p2}</motion.p>
             <motion.p
                   variants={bounceIn(0.3)}
                   initial="hidden"
                   whileInView={'show'}
                   viewport={{ once: false, amount: 0.7 }}
-            >you</motion.p>
+            >{props.p3}</motion.p>
             </div>
 
             <div className='lowerHeadingBig'>
@@ -38,19 +38,19 @@ const HeadingBig = () => {
                   initial="hidden"
                   whileInView={'show'}
                   viewport={{ once: false, amount: 0.7 }}
-            >need</motion.p>
+            >{props.p4}</motion.p>
             <motion.p
                   variants={bounceIn(0.5)}
                   initial="hidden"
                   whileInView={'show'}
                   viewport={{ once: false, amount: 0.7 }}
-            >help</motion.p>
+            >{props.p5}</motion.p>
             <motion.p
                   variants={bounceIn(0.6)}
                   initial="hidden"
                   whileInView={'show'}
                   viewport={{ once: false, amount: 0.7 }}
-            >with?</motion.p>
+            >{props.p6}</motion.p>
             </div>
         </div>
 
