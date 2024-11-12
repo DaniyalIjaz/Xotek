@@ -8,13 +8,12 @@
     padding: 1rem;
     max-width: 100%;
     margin: 0 auto;
+    /* width: 60vw; */
   }
   
   /* Individual card styling */
   .threeDCard {
-    width: 20vw; /* Responsive width for larger screens */
-    max-width: 300px; /* Limit the max width of each card */
-    min-width: 150px; /* Ensure a minimum width for very small screens */
+    
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
@@ -23,7 +22,7 @@
   }
   
   .threeDCard:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05); 
   }
   
   /* Responsive image styling inside each card */

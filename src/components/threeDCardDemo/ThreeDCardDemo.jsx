@@ -35,16 +35,16 @@ export function ThreeDCardDemo(props) {
         </div>
         </div>
         <div className="card-item image">
-          <img
+          {/* <img
             src={props.image}
             alt="thumbnail"
             className="card-image"
-          />
+          /> */}
         </div>
-        <div className="card-actions">
+        {/* <div className="card-actions">
           <button className="card-button try">Contact now →</button>
-          {/* <button className="card-button sign-up">Sign up</button> */}
-        </div>
+          <button className="card-button sign-up">Sign up</button>
+        </div> */}
       </div>
     </div>
   );

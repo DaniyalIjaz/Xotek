@@ -2,10 +2,11 @@
 .headingBigMain{
     margin: 6vw;
     text-wrap: wrap;
-    font-size: 9vw;
+    font-size: 6vw;
     font-weight: 1000;
     line-height: 7vw;
     letter-spacing: -0.2vw;
+    /* width: 40vw; */
 }
 .upperHeadingBig p:nth-child(1){
     

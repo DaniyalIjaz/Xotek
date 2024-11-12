@@ -3,27 +3,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 20vh;
     perspective: 1000px; /* Creates the 3D perspective */
     cursor: pointer;
   }
   
   .card-body {
-    background-color: #f8fafc;
-    border-radius: 1rem;
+    /* background-color: #f8fafc; */
+
+    background-image: linear-gradient(270deg, #054a80, #000);
+    border-radius: 1.5rem;
     padding: 1.4rem;
-    width: 18vw;
-    height: 60vh;
+    /* width: 18vw; */
+    width: 44vw;
+    height: 10vh;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform-style: preserve-3d; /* Preserves 3D transforms */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   }
   .cardHeadings{
-    line-height: 1.4vw;
+    /* line-height: 1.4vw; */
   }
   .card-body:hover {
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+    
   }
   
   /* Card items styling */
@@ -34,13 +38,13 @@
   .card-item.title {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #01497e;
+    color: #ffffff;
     transform: translateZ(50px);
   }
   
   .card-item.description {
     font-size: 1.2rem;
-    color: #000000;
+    color: #ffffff;
     /* margin-top: 0.5rem; */
     transform: translateZ(40px);
   }
@@ -62,6 +66,7 @@
   
   .card-body:hover .card-image {
     transform: scale(1.05);
+
   }
   
   /* Card actions */
@@ -104,12 +109,12 @@
   
   /* Responsive styling */
   @media (max-width: 768px) {
-    .card-body {
+    /* .card-body {
       width: 80%;
     }
     .card-button{
       margin: 5vw 0;
-    }
+    } */
     .cardHeadings{
       line-height: 4.2vw;
     }

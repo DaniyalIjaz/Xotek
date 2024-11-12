@@ -36,6 +36,7 @@ function CarouselCard() {
 
   return (
     <>
+    
       <Slider ref={sliderRef} {...settings}>
         {[1, 2, 3].map((_, index) => (
           <div key={index}>

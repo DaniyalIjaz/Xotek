@@ -1,0 +1,13 @@
+.homeCardComponent{
+    display: flex;
+    width: 100vw;
+    /* justify-content: center;
+    align-items: center; */
+}
+@media (max-width: 768px){
+    .homeCardComponent{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,149 @@
+/* Upper Footer  */
+/* General Footer Styling */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 0 4vw;
+    background-color: #fff;
+    color: #000;
+    width: 100vw;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 25vw;
+    /* margin-bottom: 4vw; */
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 10vw;
+    height: 6vw;
+    margin-right: 1vw;
+    object-fit: contain;
+  }
+  
+  .footer-description {
+    /* width: 10vw; */
+    text-wrap: wrap;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    margin-top: 1vw;
+    max-width: 23vw;
+    /* width: 23vw; */
+  }
+  
+  .footer-buttons {
+    display: flex;
+    gap: 1vw;
+    margin-top: 2vw;
+  }
+  
+  .contact-btn, .refer-btn {
+    padding: 1vw 2vw;
+    font-size: 1.3vw;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-btn {
+    background-color: #054a80;
+    color: white;
+    border-radius: 1vw;
+  }
+  
+  .refer-btn {
+    background-color: transparent;
+    color: #054a80;
+    border: 0.2vw solid #054a80;
+    border-radius: 1vw;
+  }
+  
+  .footer-diverse-supplier {
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 4vw;
+  }
+  
+  .footer-supplier-info {
+    font-size: 1.2vw;
+  }
+  
+  /* Link Sections */
+  .footer-links h3, .footer-services h3 {
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+  }
+  
+  .footer-links ul, .footer-services ul, .footer-other-services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li, .footer-services li, .footer-other-services li {
+    font-size: 1.35vw;
+    margin: 1vw 0;
+    cursor: pointer;
+  }
+  
+  /* Responsive for Mobile Screens */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-description{
+        max-width: 80vw;
+    }
+    .footer-section {
+        min-width: 80vw;
+        text-align: center;
+        justify-content: center;
+    }
+  
+    .footer-description, .footer-diverse-supplier, .footer-supplier-info,
+    .footer-links h3, .footer-services h3, .footer-links li, .footer-services li,
+    .footer-other-services li {
+      font-size: 3vw;
+      line-height: 5vw;
+    }
+  
+    .footer-buttons {
+      flex-direction: column;
+      gap: 2vw;
+    }
+  
+    .contact-btn, .refer-btn {
+      font-size: 4vw;
+      padding: 2vw 4vw;
+    }
+  
+    .logo-image {
+      width: 22vw;
+      height: 12vw;
+    }
+  }
+  
+
+
+
+/* Lower Footer  */
+.lowerFooter{
+    margin: 4vw;
+}
+.footerLowerPara{
+    display: flex;
+    gap: 2vw;
+    font-size: 1.3vw;
+}
+.footerLowerPara{
+    cursor: pointer;
+}
