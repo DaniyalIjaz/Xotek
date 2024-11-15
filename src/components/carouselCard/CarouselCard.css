@@ -1,34 +1,40 @@
+
+
 .CarouselCardMain{
-  margin: 90px;
-  margin-bottom: 0;
-  width: 86vw;
+  margin: 1.17vw 10vw;
+  /* margin-bottom: 70vh; */
+  /* width: 86vw; */
+  /* height: 43vh; */
   /* background-image: linear-gradient(to right, #262626, #121212); */
   background: linear-gradient(to bottom, #01579B, #161616);
-  border: 1px solid #262626;
-  border-radius: 10px;
+  /* border: 1px solid #262626; */
+  border-radius: 50px;
 }
 
 
 .CarouselCard{
-    padding: 45px 50px; 
+    padding: 3vw 4vw; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #3a5b74 ;
   }
-
+  .CarouselCard:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+  }
 .eventbtnn h4{
     background: transparent;
     
     border-radius: 30px;
-    width: 105px;
-    font-size: 14px;
+    width: 6.3vw;
+    font-size: 0.9vw;
     font-weight: 500;
-    padding: 9px 20px;
+    padding: 7px 16px;
     color: white;
     border: 2px solid #ffffff;
     cursor: text;
-    margin-bottom: 18px;
+    margin-bottom: 1vw;
 }
 .eventbtnn h2{
     font-size: 42px;
@@ -117,49 +123,54 @@
   
   
   .carouselDetails{
-    padding: 45px 50px; 
+    padding: 2.5vw 4vw; 
     display: flex;
     /* justify-content: space-evenly; */
-    gap: 60px;
+    gap: 3vw;
 
 }
   /* carousel right  */
 .carouselRightSection{
-  width: 48vw;
+  /* width: 48vw; */
   text-wrap: wrap;
   display: flex;
+  font-size: 1.4vw;
   flex-direction: column;
 }
 .carouselRightSection h4{
-  font-size: 22px;
+  font-size: 1.2vw;
   color: #c3cfd7;
   font-weight: 500;
-  line-height: 29px;
-  padding: 14px 0;
+  /* line-height: 29px; */
+  padding: 0.4vw 0;
 }
 .carouselRightSection h3{
   font-weight: 500;
-  padding: 14px 0;
+  padding-top: 0.6vw;
   color: white;
 }
 .carouselRightSection h5{
   color: #c3cfd7;
-  font-size: 17px;
+  font-size: 1.09vw;
   font-weight: 500;
 }
 .carouselDetailsImg img:first-child {
   /* Styles for the first image */
-  width: 20vw;
-  height: 20vw;
+  width: 14vw;
+  height: 14vw;
   object-fit: cover;
   border-radius: 50%;
+}
+.carouselDetailsImg img:nth-child(2) {
+  width: 2vw;
+  height: 2vw;
 }
 .carouselDetailsImg{
   position: relative;
 }
 .starSvgs{
   display: flex;
-  gap: 4px;
+  gap: 0.2vw;
 }
 .carouselPositionImg{
   padding: 20px;
@@ -170,6 +181,12 @@
   position: absolute;
   right: -15px;
   top: 0;
+}
+.bracketsCarousel{
+  width: auto;
+  display: none;
+  height: 10vw;
+  object-fit: contain;
 }
 
 
@@ -193,9 +210,13 @@
   }
   .carouselRightSection{
     width: 66vw;
+    font-size: 2.4vw;
   }
   .carouselPositionImg{
-    left: 0;
+    left: 11vw;
+    width: 2vw;
+    height: 2vw;
+    padding: 1vw;
   }
   .eventbtnn h4{
     font-size: 11px;
@@ -210,14 +231,25 @@
 
 
 @media screen and (max-width: 620px){
+  .CarouselCardMain{
+    padding: 3vw;
+  }
   .carouselButtons{
     display: none;
   }
   .CarouselCardMain{
-    margin: 37px;
+    margin: 5.5vw;
   }
   .carouselRightSection h4{
-    font-size: 18px;
+    font-size: 2.4vw;
+    width: 80vw;
   }
+  .eventbtnn h4{
+    font-size: 1.7vw;
+    width: 11.7vw;
+    border: 1px solid white;
+    padding: 1vw 2vw;
+  }
+  
 
 }

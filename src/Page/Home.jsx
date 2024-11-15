@@ -23,7 +23,7 @@ const Home = () => {
       <ThreeDCards/>
     </div>
 
-    {/* <CarouselCard/> */}
+    <CarouselCard/>
     <HeadingBig p1='Trusted' p2='by' p4='Awesome'  p5='Clients'/>
     <LogoCarousel/>
       {/* <Carousel/>

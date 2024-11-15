@@ -95,7 +95,10 @@ const ContactsSection = () => {
 
 
         {/* button 2  */}
-        <button className="btn-96"><span>MORE PROJECTS</span></button>
+        {/* <button className="btn-96"><span>MORE PROJECTS</span></button> */}
+        <button className='btn-95'>
+            <b>MORE PROJECTS</b>
+        </button>
     </div>
     
     </div>
