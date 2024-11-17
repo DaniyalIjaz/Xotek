@@ -12,6 +12,7 @@ const ThreeDCards = () => {
   }
 
   return (
+    <>
     <motion.div
       className='threeDCardsContainer'
       initial="hidden"
@@ -25,7 +26,7 @@ const ThreeDCards = () => {
       }}
     >
 
-<motion.p
+<motion.div
                 variants={rotateSlideIn('up', 0.2)}
                 initial="hidden"
                 whileInView={'show'}
@@ -34,8 +35,8 @@ const ThreeDCards = () => {
                     <motion.div variants={cardVariants} whileHover="hover">
                       <ThreeDCardDemo p1='Take your designs' p2='to next level' image='/Images/threeDCard/1.webp'/>
                     </motion.div>
-            </motion.p>
-            <motion.p
+            </motion.div>
+            <motion.div
                 variants={rotateSlideIn('up', 0.3)}
                 initial="hidden"
                 whileInView={'show'}
@@ -44,8 +45,8 @@ const ThreeDCards = () => {
                     <motion.div variants={cardVariants} whileHover="hover">
                       <ThreeDCardDemo p1='Get design help' p2='to raise capital' image='/Images/threeDCard/1.webp'/>
                     </motion.div>
-            </motion.p>
-            <motion.p
+            </motion.div>
+            <motion.div
                   variants={rotateSlideIn('up', 0.4)}
                   initial="hidden"
                   whileInView={'show'}
@@ -54,15 +55,10 @@ const ThreeDCards = () => {
                         <motion.div variants={cardVariants} whileHover="hover">
                           <ThreeDCardDemo p1='Create a' p2='clickable prototype' image='/Images/threeDCard/2.webp'/>
                         </motion.div>
-            </motion.p>
+            </motion.div>
 
-      
-      
-     
-      {/* <motion.div variants={cardVariants} whileHover="hover">
-        <ThreeDCardDemo p1='Work on' p2='Multiple things' image='/Images/threeDCard/3.webp'/>
-      </motion.div> */}
     </motion.div>
+    </>
   )
 }
 

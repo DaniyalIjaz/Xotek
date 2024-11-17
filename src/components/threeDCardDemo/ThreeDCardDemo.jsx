@@ -20,6 +20,7 @@ export function ThreeDCardDemo(props) {
 
   return (
     <div className="card-container">
+
       <div
         className="card-body"
         onMouseMove={handleMouseMove}
@@ -29,22 +30,13 @@ export function ThreeDCardDemo(props) {
         }}
       >
         <div className='cardHeadings'>        
-        <div className="card-item title">{props.p1}</div>
-        <div className="card-item description">
-          {props.p2}
-        </div>  
+              <div className="card-item title">{props.p1}</div>
+
+              <div className="card-item description">
+                {props.p2}
+              </div>  
         </div>
-        <div className="card-item image">
-          {/* <img
-            src={props.image}
-            alt="thumbnail"
-            className="card-image"
-          /> */}
-        </div>
-        {/* <div className="card-actions">
-          <button className="card-button try">Contact now →</button>
-          <button className="card-button sign-up">Sign up</button>
-        </div> */}
+
       </div>
     </div>
   );
