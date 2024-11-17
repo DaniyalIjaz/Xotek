@@ -5,14 +5,17 @@
 
 /* Custom cursor styling */
 .custom-cursor {
+  backdrop-filter: blur(0.5px);
+  
+  
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: grey;
+  background-color: rgb(187, 193, 198);
   position: fixed;
   pointer-events: none;
   z-index: 9999; /* Ensure it is on top of everything */
-  mix-blend-mode: difference; /* Ensure text behind it is visible */
+  mix-blend-mode: color-dodge;
   transition: transform 0.2s ease, background-color 0.2s ease, width 0.2s ease, height 0.2s ease;
   transform: translate(-50%, -50%); /* Center the cursor */
 }
@@ -20,7 +23,10 @@
 /* Cursor style when hovering over links or interactive elements */
 .custom-cursor.hovered {
   background-color: white;
+  backdrop-filter: blur(0px);
+  mix-blend-mode: difference;
   /* width: 20px;
+  
   height: 20px; */
   transform: translate(-40%, -40%) scale(0.5);
 }

@@ -6,8 +6,11 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  
 }
+
 body{   
+
   text-wrap: nowrap;
   font-family: "DM Sans", sans-serif;
   margin-top: 90px;
@@ -15,4 +18,8 @@ body{
   /* background-color: #121212; */
 
 }
+
+/* body::-webkit-scrollbar {
+  display: none; 
+} */
 
