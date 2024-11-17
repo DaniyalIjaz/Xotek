@@ -32,7 +32,7 @@ export function ThreeDCardDemo(props) {
         <div className="card-item title">{props.p1}</div>
         <div className="card-item description">
           {props.p2}
-        </div>
+        </div>  
         </div>
         <div className="card-item image">
           {/* <img

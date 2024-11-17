@@ -1,12 +1,12 @@
 .text-red {
-  color: #01579B !important;
+  color: aliceblue !important;
 }
 .glass{
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) !important;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05)) !important;
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
   border-radius: 20px;
-  border:1px solid rgba(255, 255, 255, 0.18);
+  /* border:1px solid rgba(255, 255, 255, 0.18); */
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
@@ -17,7 +17,7 @@
     align-items: center;
     padding: 0 70px;
     position: fixed;
-    background-color: white;
+    /* background-color: white; */
     z-index: 5;
     top: 0;
     left: 0;
@@ -123,7 +123,7 @@
 
   
   .navItems>li:hover >a{
-    color: #0a6394;
+    color: rgb(190, 198, 205);
     transition: all ease 0.3s;
   }
   
@@ -135,7 +135,7 @@
     flex-direction: column;
     align-items: center;
     width: 170px; /* Set a fixed width for the dropdown */
-    background-color: white; /* White background for dropdown */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05)) !important;
     padding: 10px 0; /* Standard padding */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
     opacity: 0; /* Initially hidden */
@@ -154,7 +154,7 @@
   }
   
   .dropdownLink:hover {
-    color: #01579B;
+    color: rgb(190, 198, 205);
   }
   
   /* Animation for individual links */
@@ -266,39 +266,41 @@
       position: fixed;
       top: -800px; 
       right: 0;
-      background-color: white;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05)) !important;
       width: 100%;
-
-
-  
-
+      color: aliceblue ;
+      
+      
+      
       transition: top 0.5s ease;
       z-index: 10;
-
+      
     }
-  
+    
     .navItemsActive {
       top: 60px; 
-
+      
       flex-direction: column;
       position: absolute;
       right: 0;
-      background-color: white;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05)) !important;
       width: 100%;
       transition: top 0.5s ease;
       z-index: 10;
       justify-content: center;
       align-items: center;
       
-
+      
       
     }
  
 
     .navItems li>a{
       padding: 0px;
+      color: #E1F5FE !important;
     }
-  
+    
+
     .hamburger{
       display: block;
     }

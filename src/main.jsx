@@ -13,6 +13,7 @@ import CompanyProfile from './Page/Dropdowns/CompanyProfile.jsx'
 import CompanyCulture from './Page/Dropdowns/CompanyCulture.jsx'
 import VideoCenter from './Page/Dropdowns/VideoCenter.jsx'
 import HomeEntertainment from './Page/Dropdowns/HomeEntertainment.jsx'
+import ParallaxZoom from './components/carousel3D/ParallaxZoom.jsx'
 
 
 
@@ -33,6 +34,14 @@ const router = createBrowserRouter(
        <Route path='/video-center' element={<VideoCenter/>}/>
 
        <Route path='/home-entertainment' element={<HomeEntertainment/>}/>
+
+
+       {/* Projects with parallax zoom routes  */}
+       <Route path="/" element={<ParallaxZoom />} />
+        <Route path="/section1" element={<div>Welcome to Section 1</div>} />
+        <Route path="/section2" element={<div>Welcome to Section 2</div>} />
+        <Route path="/section3" element={<div>Welcome to Section 3</div>} />
+        <Route path="/section4" element={<div>Welcome to Section 4</div>} />
 
     </Route>
   )

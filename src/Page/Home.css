@@ -1,9 +1,14 @@
+body{
+    background-color: #121212;
+}
+
 .homeCardComponent{
+    padding-top: 12vw;
     display: flex;
     width: 100vw;
     /* justify-content: center;
     align-items: center; */
-    margin-bottom: 8vw;
+    /* margin-bottom: 8vw; */
 }
 @media (max-width: 768px){
     .homeCardComponent{

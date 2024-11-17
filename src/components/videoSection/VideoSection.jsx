@@ -6,7 +6,7 @@ const VideoSection = () => {
     <div>
   <div className="videoSec">
     <video 
-      src="/public/Videos/videoSec.mp4" 
+      src="/Videos/videoSec.mp4" 
       autoPlay 
       loop 
       muted 

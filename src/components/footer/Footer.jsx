@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footerMain'>
       {/* Upper Footer  */}
         <footer className="footer">
-      <div className="footer-section footer-about">
+      <div className="footer-about">
         <div className="footer-logo">
           <img src="./Images/logo/xotek-logo.avif" alt="Xotek logo" className="logo-image" />
           {/* <h2>Orizon</h2> */}

@@ -17,7 +17,7 @@
     /* width: 18vw; */
     width: 44vw;
     height: 10vh;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform-style: preserve-3d; /* Preserves 3D transforms */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);

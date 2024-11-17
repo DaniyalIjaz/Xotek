@@ -13,6 +13,7 @@ function CarouselCard() {
   const settings = {
     dots: false,
     infinite: false,
+    arrows: false,
     speed: 500,
     slidesToShow: window.innerWidth <= 950 ? 1 : 1, // Show fewer slides on smaller screens
     slidesToScroll: 1,

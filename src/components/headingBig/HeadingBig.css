@@ -26,9 +26,11 @@
 .upperHeadingBig{
     display: flex;
     gap: 0.4vw;
+    color: aliceblue;
 }
 .lowerHeadingBig{
     display: flex;
     gap: 0.8vw;
+    color: aliceblue;
 
 }

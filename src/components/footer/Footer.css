@@ -7,15 +7,29 @@
     /* align-items: center; */
     flex-wrap: wrap;
     padding: 0 4vw;
-    background-color: #fff;
-    color: #000;
+    /* background-color: #fff; */
+    color: rgb(168, 174, 180);
     width: 100vw;
+    /* gap: 1vw; */
   }
   
+  .logo-image {
+    filter: invert(1) brightness(2);
+  }
   .footer-section {
     flex: 1;
     min-width: 25vw;
     /* margin-bottom: 4vw; */
+  }
+  .footer-section h3{
+    color: aliceblue;
+  }
+  .footer-section ul li:hover{
+    color: aliceblue;
+    transition: all ease-in-out 0.3s;
+  }
+  .footer-about{
+    margin-right: 2vw;
   }
   
   .footer-logo {
@@ -70,6 +84,7 @@
     font-size: 1.5vw;
     font-weight: bold;
     margin-top: 4vw;
+    color: aliceblue;
   }
   
   .footer-supplier-info {
@@ -93,6 +108,7 @@
     margin: 1vw 0;
     cursor: pointer;
   }
+
   
   /* Responsive for Mobile Screens */
   @media (max-width: 768px) {
@@ -130,6 +146,19 @@
       width: 22vw;
       height: 12vw;
     }
+    .footer-section h3{
+      margin: 2.5vw 0;
+      font-size: 4vw;
+    }
+    .footerLowerPara{
+      justify-content: center;
+      align-items: center;
+      /* flex-direction: column; */
+    }
+    .footerLowerPara p{
+      font-size: 2.3vw;
+      font-weight: 300;
+    }
   }
   
 
@@ -138,6 +167,7 @@
 /* Lower Footer  */
 .lowerFooter{
     margin: 4vw;
+    color: aliceblue;
 }
 .footerLowerPara{
     display: flex;
