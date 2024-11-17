@@ -21,7 +21,7 @@
   }
   .CarouselCard:hover {
     transform: scale(1.05); 
-    cursor: pointer;
+    /* cursor: pointer; */
   }
 .eventbtnn h4{
     background: transparent;
@@ -33,7 +33,7 @@
     padding: 7px 16px;
     color: white;
     border: 2px solid #ffffff;
-    cursor: text;
+    /* cursor: text; */
     margin-bottom: 1vw;
 }
 .eventbtnn h2{
@@ -56,7 +56,7 @@
   overflow: hidden;
   outline: none;
   background-color: transparent;
-  cursor: pointer;
+  /* cursor: pointer; */
   border: 0;
 }
 

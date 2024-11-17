@@ -64,7 +64,7 @@
     padding: 1vw 2vw;
     font-size: 1.3vw;
     border: none;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
   
   .contact-btn {
@@ -106,7 +106,7 @@
   .footer-links li, .footer-services li, .footer-other-services li {
     font-size: 1.35vw;
     margin: 1vw 0;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
 
   
@@ -175,5 +175,5 @@
     font-size: 1.3vw;
 }
 .footerLowerPara{
-    cursor: pointer;
+    /* cursor: pointer; */
 }
