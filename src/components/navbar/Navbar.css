@@ -27,6 +27,7 @@
     width: 9vw;
     height: auto;
     object-fit: contain;
+    filter: invert(1) brightness(2);
   }
   
   /* .navItems {

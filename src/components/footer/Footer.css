@@ -1,5 +1,4 @@
 /* Upper Footer  */
-/* General Footer Styling */
 
 .footer {
     display: flex;
@@ -7,6 +6,7 @@
     /* align-items: center; */
     flex-wrap: wrap;
     padding: 0 4vw;
+    padding-top: 8vh;
     /* background-color: #fff; */
     color: rgb(168, 174, 180);
     width: 100vw;
