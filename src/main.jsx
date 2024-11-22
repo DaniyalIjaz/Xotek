@@ -8,12 +8,12 @@ import Home from './Page/Home.jsx'
 import AboutMultynet from './Page/Services.jsx'
 import Product from './Page/Work.jsx'
 import News from './Page/WhyXotek.jsx'
-import Contact from './Page/contact/Contact.jsx'
 import CompanyProfile from './Page/Dropdowns/CompanyProfile.jsx'
 import CompanyCulture from './Page/Dropdowns/CompanyCulture.jsx'
 import VideoCenter from './Page/Dropdowns/VideoCenter.jsx'
 import HomeEntertainment from './Page/Dropdowns/HomeEntertainment.jsx'
 import ParallaxZoom from './components/carousel3D/ParallaxZoom.jsx'
+import Contact from './Page/Contact/Contact.jsx'
 
 
 
