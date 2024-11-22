@@ -1,9 +1,10 @@
 import React from 'react'
+import ParallaxZoom from '../components/carousel3D/ParallaxZoom'
 
 const Work = () => {
   return (
     <>
-    <h1>This is Work</h1>
+    <ParallaxZoom/>
       
     </>
   )
