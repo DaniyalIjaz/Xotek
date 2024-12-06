@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import HeroContactBtn from '../heroContactBtn/HeroContactBtn'
+import HeroContactBtn from '../heroContactBtn'
 import {motion} from  'framer-motion'
 import { fadeIn } from '../../variants'
 import { rotateSlideIn } from '../../variants'

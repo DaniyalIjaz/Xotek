@@ -1,14 +1,14 @@
 import React from 'react'
 import './Home.css'
-import Hero from '../components/hero/Hero'
-import VideoSection from '../components/videoSection/VideoSection'
-import ContactsSection from '../components/contactsSection/ContactsSection'
-import HeadingBig from '../components/headingBig/headingBig'
-import LogoCarousel from '../components/logoCarousel/LogoCarousel'
-import { ThreeDCardDemo } from '../components/threeDCardDemo/ThreeDCardDemo'
-import ThreeDCards from '../components/threeDCards/threeDCards'
-import CarouselCard from '../components/carouselCard/CarouselCard'
-import ParallaxZoom from '../components/carousel3D/ParallaxZoom'
+import Hero from '../components/hero'
+import VideoSection from '../components/videoSection'
+import ContactsSection from '../components/contactsSection'
+import HeadingBig from '../components/headingBig'
+import LogoCarousel from '../components/logoCarousel'
+import { ThreeDCardDemo } from '../components/threeDCardDemo'
+import ThreeDCards from '../components/threeDCards'
+import CarouselCard from '../components/carouselCard'
+import ParallaxZoom from '../components/carousel3D'
 
 
 

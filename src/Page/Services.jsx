@@ -1,6 +1,6 @@
 import React from 'react'
-import HeadingBig from '../components/headingBig/headingBig'
-import ThreeDCards from '../components/threeDCards/threeDCards'
+import HeadingBig from '../components/headingBig'
+import ThreeDCards from '../components/threeDCards'
 
 const Services = () => {
   return (

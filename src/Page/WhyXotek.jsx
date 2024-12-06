@@ -1,8 +1,8 @@
 import React from 'react'
 import './WhyXotek.css'
-import HeadingBig from '../components/headingBig/headingBig'
-import LogoCarousel from '../components/logoCarousel/LogoCarousel'
-import CarouselCard from '../components/carouselCard/CarouselCard'
+import HeadingBig from '../components/headingBig'
+import LogoCarousel from '../components/logoCarousel'
+import CarouselCard from '../components/carouselCard'
 
 const WhyXotek = () => {
   return (

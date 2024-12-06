@@ -1,5 +1,5 @@
 import React from 'react'
-import ParallaxZoom from '../components/carousel3D/ParallaxZoom'
+import ParallaxZoom from '../components/carousel3D'
 
 const Work = () => {
   return (
