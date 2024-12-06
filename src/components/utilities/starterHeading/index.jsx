@@ -1,5 +1,5 @@
 import React from 'react'
-import './StarterHeading.css'
+import './index.css'
 
 const StarterHeading = (props) => {
   return (

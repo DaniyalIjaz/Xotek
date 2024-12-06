@@ -1,5 +1,5 @@
 import React from 'react'
-import './HeroContactBtn.css'
+import './index.css'
 
 const HeroContactBtn = () => {
   return (

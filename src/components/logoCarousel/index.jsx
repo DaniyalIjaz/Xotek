@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import './LogoCarousel.css';
+import './index.css';
 
 // Import logo images here (replace with your own paths)
 import logo1 from '/Images/logoCarousel/logo-1.png';

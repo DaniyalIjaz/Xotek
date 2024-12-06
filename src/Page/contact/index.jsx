@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./Contact.css";
+import "./index.css";
 import { motion } from "framer-motion";
 import { fadeIn, rotateSlideIn } from "../../variants";
 import emailjs from "@emailjs/browser";

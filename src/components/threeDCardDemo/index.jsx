@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ThreeDCardDemo.css'; // Import CSS for the 3D effect
+import './index.css'; // Import CSS for the 3D effect
 
 export function ThreeDCardDemo(props) {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });

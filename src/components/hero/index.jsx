@@ -1,5 +1,5 @@
 import React from 'react'
-import './Hero.css'
+import './index.css'
 import HeroContactBtn from '../heroContactBtn'
 import {motion} from  'framer-motion'
 import { fadeIn } from '../../variants'

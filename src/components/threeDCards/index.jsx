@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { rotateSlideIn } from '../../variants'
-import './ThreeDCards.css'
+import './index.css'
 import { ThreeDCardDemo } from '../threeDCardDemo'
 
 const ThreeDCards = () => {

@@ -69,7 +69,7 @@
   }
   .navItemsActive li a{
     text-decoration: none;
-    color: #111;
+    color: aliceblue;
   }
 
   
@@ -284,7 +284,8 @@
       flex-direction: column;
       position: absolute;
       right: 0;
-      background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05)) !important;
+      /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05)) !important; */
+      background: black;
       width: 100%;
       transition: top 0.5s ease;
       z-index: 10;

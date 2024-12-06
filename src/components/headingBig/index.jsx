@@ -1,5 +1,5 @@
 import React from 'react'
-import './headingBig.css'
+import './index.css'
 import {motion} from  'framer-motion'
 import { fadeIn } from '../../variants'
 import { rotateSlideIn } from '../../variants'

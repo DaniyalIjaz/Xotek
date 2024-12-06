@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import "./ParallaxZoom.css";
+import "./index.css";
 
 const ParallaxZoom = () => {
   const containerRef = useRef(null);

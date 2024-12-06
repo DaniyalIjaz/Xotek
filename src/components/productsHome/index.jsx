@@ -1,5 +1,5 @@
 import React from 'react'
-import './ProductsHome.css'
+import './index.css'
 import StarterHeading from '../utilities/starterHeading/starterHeading'
 
 const ProductsHome = () => {

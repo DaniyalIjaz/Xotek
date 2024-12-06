@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './Navbar.css';
+import './index.css';
 import { NavLink } from 'react-router-dom';
 import {motion} from  'framer-motion'
 import { fadeIn } from '../../variants'
