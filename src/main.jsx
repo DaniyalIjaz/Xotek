@@ -13,10 +13,7 @@ import CompanyCulture from './Page/Dropdowns/CompanyCulture.jsx'
 import VideoCenter from './Page/Dropdowns/VideoCenter.jsx'
 import HomeEntertainment from './Page/Dropdowns/HomeEntertainment.jsx'
 import ParallaxZoom from './components/carousel3D/ParallaxZoom.jsx'
-import Contact from './Page/Contact/Contact.jsx'
-
-
-
+import Contact from './Page/contact'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
